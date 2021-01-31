@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ken News</title>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/efef19bc85.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts links -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+  <!-- my css link -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark index-navbar">
+    <div class="container-fluid navbar-div">
+      <a class="navbar-brand" href="index.html">Ken</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#download-stop">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="ken-title">
+
+    <div class="container-fluid ken-div">
+      <h1 class="main-title"><span id="Ken">Ken</span> <span id="News"> News</span></h1>
+      <p class="brief-description">A <span class="certain-words">Free</span>
+        and <span class="certain-words">Easy</span> to use app that lets you get the latest information about the World</p>
+    </div>
+
+  </section>
+
+
+
+
+  <section id="sources-comments">
+
+    <div class="row">
+      <div class="container-fluid sources-comments-div col-lg-6">
+        <h2 class="sources-heading">Ken fetches data from all around the web including the sources you know very well</h2>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="sources-names">New York Times</p>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="sources-names">Bloomberg</p>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="sources-names">Washington Post</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-6 sources-screenshot-div">
+        <img src="images/articlepicture.jpg" alt="screenshot" class="sources-screenshot">
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="description">
+
+    <div class="row">
+
+      <div class="container-fluid description-div col-lg-4">
+        <i class="fas fa-mobile-alt icon"></i>
+        <p class="features">Ken has a friendly and an easy to understand user-interface</p>
+      </div>
+
+      <div class="container-fluid description-div col-lg-4">
+        <i class="fab fa-readme icon"></i>
+        <p class="features">A number of topics to read about and plenty articles about each topic updated everyday</p>
+      </div>
+
+      <div class="container-fluid description-div col-lg-4">
+        <i class="fas fa-certificate icon"></i>
+        <p class="features">Articles are fetched from famous sources</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+<section id="download-stop">
+
+</section>
+  <!-- comments section will be here -->
+
+  <section id="download">
+
+    <div class="row download-free-div">
+
+      <div class="download-div col-lg-6">
+
+        <img src="images/screenshot.jpg" alt="screenshot" class="screenshot">
+        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+
+        <!-- I want to put it's completely free on the right side of the page. Use div = row from bootstrap etc-->
+
+      </div>
+
+      <div class="col-lg-6 free-div">
+
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">It's completely free!</h1>
+
+            <div class="row three-row">
+              <div class="col-lg-4">
+                <h2>No Ads</h2>
+              </div>
+              <div class="col-lg-4">
+                <h2>No Fees</h2>
+              </div>
+              <div class="col-lg-4">
+                <h2>No Commission</h2>
+              </div>
+
+            </div>
+            <p class="justdownload-p">Just download and get news everyday for free!</p>
+          </div>
+        </div>
+        <!-- <h1 class = "free-title">It's completely free!</h1>
+
+        <div class="row three-row">
+          <div class="col-lg-4">
+            <h2>No Ads</h2>
+          </div>
+          <div class="col-lg-4">
+            <h2>No Fees</h2>
+          </div>
+          <div class="col-lg-4">
+            <h2>No Commission</h2>
+          </div>
+
+        </div>
+
+        <p class = "justdownload-p">Just download and get news everyday for free!</p> -->
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="contact-information">
+    <h2 class="contact-heading">Contact Us</h2>
+    <p><span class="certain-words">Email:</span> dakopyan767@student.glendale.edu</p>
+    <p><span class="certain-words">Phone:</span> (818)-564-3724</p>
+    <p><a href="https://www.instagram.com/david_ak1812/?hl=en" class="insta-link">Instagram</a>: david_ak1812</p>
+  </section>
+
+
+
+  <footer>
+    <!-- logo -->
+    <p>Aim for the best.</p>
+
+
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
