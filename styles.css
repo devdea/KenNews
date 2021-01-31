@@ -107,7 +107,7 @@ body {
 
 .sources-comments-div {
   text-align: center;
-  padding: 7% 7%;
+  padding: 7% 4%;
 }
 
 .sources-screenshot-div {
@@ -116,8 +116,6 @@ body {
 
 .sources-screenshot {
   width: 35%;
-  margin-top: 9%;
-  margin-right: 20%;
   border-radius: 1%;
 }
 
